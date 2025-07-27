@@ -245,6 +245,30 @@
   font-size: 18px;
   outline: none;
 }
+.footer-part {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+.color {
+  color: var(--paragraph-color);
+}
+.footer-part p {
+  padding: 5px;
+}
+
+.logos {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 8px;
+}
+.x {
+  margin-top: 10px;
+}
+.font-16 {
+  font-size: 16px;
+}
 
 /* Mobile Layout */
 @media (max-width: 768px) {
@@ -332,5 +356,8 @@
   }
   .join-title {
     font-size: 30px;
+  }
+  .footer-part {
+    flex-direction: column;
   }
 }
