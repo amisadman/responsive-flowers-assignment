@@ -31,6 +31,18 @@
 .orange {
   color: var(--orange);
 }
+.btn-primary {
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 20px 50px;
+  width: 100%;
+  background-color: var(--orange);
+  border: none;
+  color: var(--white);
+}
+.text-center {
+  text-align: center;
+}
 /* header part */
 .header {
   display: flex;
@@ -77,4 +89,33 @@
 }
 .banner-img-container img {
   display: block;
+}
+/* our plants */
+.our-plants-container {
+  text-align: center;
+}
+.our-plants-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.our-plants-content {
+  font-size: 22px;
+  color: var(--paragraph-color);
+}
+/* card */
+.plants-cart-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.cart-container img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.usd {
+  margin: 10px;
+  font-weight: bold;
 }
